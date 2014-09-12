@@ -14,6 +14,7 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="slider" destination="DUZ-kw-6Ni" id="yBW-Vj-IQa"/>
                 <outlet property="textField" destination="9hP-cV-gKo" id="MT4-Iu-JG9"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -692,7 +693,7 @@
                     <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DUZ-kw-6Ni">
                         <rect key="frame" x="106" y="80" width="21" height="199"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="11" doubleValue="5" tickMarkPosition="right" sliderType="linear" id="xaT-SO-0cH"/>
+                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="11" doubleValue="5" tickMarkPosition="left" sliderType="linear" id="xaT-SO-0cH"/>
                         <connections>
                             <action selector="takeFloatValueForVolumeFrom:" target="Voe-Tx-rLC" id="XAL-MG-W0L"/>
                         </connections>

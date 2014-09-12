@@ -10,6 +10,9 @@
 
 @implementation AppDelegate
 
+@synthesize textField;
+@synthesize slider;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
